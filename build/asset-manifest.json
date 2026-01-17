@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Website/static/css/main.b3553c34.css",
-    "main.js": "/Website/static/js/main.d5c084b7.js",
+    "main.js": "/Website/static/js/main.fed720e5.js",
     "static/js/488.651906d1.chunk.js": "/Website/static/js/488.651906d1.chunk.js",
     "static/media/Spring2025 Events.png": "/Website/static/media/Spring2025 Events.d5799bc18313b49ff8d2.png",
     "static/media/Winter2024 Events.png": "/Website/static/media/Winter2024 Events.8526cbad7bb9c2c365d9.png",
@@ -22,11 +22,11 @@
     "static/media/linkedin.png": "/Website/static/media/linkedin.68ac41e1459436bfd38f.png",
     "index.html": "/Website/index.html",
     "main.b3553c34.css.map": "/Website/static/css/main.b3553c34.css.map",
-    "main.d5c084b7.js.map": "/Website/static/js/main.d5c084b7.js.map",
+    "main.fed720e5.js.map": "/Website/static/js/main.fed720e5.js.map",
     "488.651906d1.chunk.js.map": "/Website/static/js/488.651906d1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b3553c34.css",
-    "static/js/main.d5c084b7.js"
+    "static/js/main.fed720e5.js"
   ]
 }
