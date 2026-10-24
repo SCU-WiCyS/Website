@@ -6,17 +6,14 @@ import shieldImg from './Assets/Shield.png'
 import ArianaImg from './Assets/board_headshot/Ariana.png'
 import ChrisImg from './Assets/board_headshot/Chris2.png'
 import CatherineImg from './Assets/board_headshot/Catherine.png'
-import IzzyImg from './Assets/board_headshot/Izzy2.png'
 import JessicaImg from './Assets/board_headshot/Jessica.png'
 import KaraImg from './Assets/board_headshot/Kara.png'
-import PrableenImg from './Assets/board_headshot/Prableen.png'
 import RidhanyaImg from './Assets/board_headshot/Ridhanya.png'
-import TiffanyImg from './Assets/board_headshot/Tiffany.png'
 import JasleenImg from './Assets/board_headshot/Jasleen.png'
 import IshikaImg from './Assets/board_headshot/Ishika.png'
 import PriyankaImg from './Assets/board_headshot/Priyanka.png'
-import SoniyaImg from './Assets/board_headshot/Soniya.png'
 import KeerthiImg from './Assets/board_headshot/Keerthi.png'
+import ChristineImag from './Assets/board_headshot/Christine.png'
 
 function BoardMember( {name, position, image} ){
   return(
@@ -40,18 +37,16 @@ function Board() {
         <div className="BackgroundCircle3"></div>
       </div>
       <div className="AllBoardMembers">
-        <BoardMember name="Tiffany Nguyen" position="President" image={TiffanyImg}></BoardMember>
-        <BoardMember name="Kara Barrese" position="Vice President" image={KaraImg}></BoardMember>
-        <BoardMember name="Isabella Bravo" position="Treasurer" image={IzzyImg}></BoardMember>
-        <BoardMember name="Ridhanya Sakthivel" position="Secretary" image={RidhanyaImg}></BoardMember>
-        <BoardMember name="Keerthi Ramakuri" position="Public Relations" image={KeerthiImg}></BoardMember>
-        <BoardMember name="Ariana Sun" position="Events Coordinator" image={ArianaImg}></BoardMember>
-        <BoardMember name="Chris Shobe" position="Events Coordinator" image={ChrisImg}></BoardMember>
-        <BoardMember name="Ishika Gupta" position="Project Manager" image={IshikaImg}></BoardMember>
-        <BoardMember name="Jessica Tuso" position="Project Manager" image={JessicaImg}></BoardMember>
+        <BoardMember name="Kara Barrese" position="President" image={KaraImg}></BoardMember>
+        <BoardMember name="Chris Shobe" position="Vice President" image={ChrisImg}></BoardMember>
+        <BoardMember name="Ariana Sun" position="Vice President" image={ArianaImg}></BoardMember>
+        <BoardMember name="Jessica Tuso" position="Treasurer" image={JessicaImg}></BoardMember>
+        <BoardMember name="Ishika Gupta" position="Secretary" image={IshikaImg}></BoardMember>
+        <BoardMember name="Astha Desai" position="Public Relations" image={shieldImg}></BoardMember>
+        <BoardMember name="Ridhanya Sakthivel" position="Events Coordinator" image={RidhanyaImg}></BoardMember>
+        <BoardMember name="Christine O'Donnell" position="Events Coordinator" image={shieldImg}></BoardMember>
+        <BoardMember name="Catherine Hung" position="Project Manager" image={CatherineImg}></BoardMember>
         <BoardMember name="Priyanka Ganguly" position="Industry Liason" image={PriyankaImg}></BoardMember>
-        <BoardMember name="Soniya Phaltane" position="Industry Liason" image={SoniyaImg}></BoardMember>
-        <BoardMember name="Catherine Hung" position="Webmaster" image={CatherineImg}></BoardMember>
         <BoardMember name="TBD" position="Underclassman Rep" image={shieldImg}></BoardMember>
         <BoardMember name="Jasleen Kaur" position="Faculty Advisor" image={JasleenImg}></BoardMember>
       </div>
