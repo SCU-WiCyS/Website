@@ -12,8 +12,6 @@ import RidhanyaImg from './Assets/board_headshot/Ridhanya.png'
 import JasleenImg from './Assets/board_headshot/Jasleen.png'
 import IshikaImg from './Assets/board_headshot/Ishika.png'
 import PriyankaImg from './Assets/board_headshot/Priyanka.png'
-import KeerthiImg from './Assets/board_headshot/Keerthi.png'
-import ChristineImag from './Assets/board_headshot/Christine.png'
 
 function BoardMember( {name, position, image} ){
   return(
